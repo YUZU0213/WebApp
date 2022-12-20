@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001.0/XMLSchema-instance">
+<url>
+  <loc>https://marbleanser.com/WebApp/error/error403.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/error/error404.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/error/error500.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+ <loc>https://marbleanser.com/WebApp/error/error.jsp</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/index.htm</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=1</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=2</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=3</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=4</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=5</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=6</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=7</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=8</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=9</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=10</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=11</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=12</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/RepoArticle?id=13</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/TextCounter</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/ipcheck.jsp</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/Profile</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/Question</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/test.jsp</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/AddQuestion</loc>
+  <priority>0.9</priority>
+</url>
+<url>
+  <loc>https://marbleanser.com/WebApp/web/index.html</loc>
+  <priority>1.0</priority>
+</url>
+</urlset>

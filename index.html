@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114106565-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114106565-1');
+</script>
+<meta name="viewport" content="width-device,initial-scale=1.0" />
+<meta name="google-site-verification" content="dOdBtBJsE796vRY9M160HfwVg4X6sY4E4czCQ9t1e4k" />
+<meta name="msvalidate.01" content="5D1B817F9A91BC736D39662B83A2B98A" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex,nofollow" >
+<meta name="keywords" content="marbleanser.com">
+<meta name="description" content="MARBLEANSER.COM Description">
+<link rel="alternate" hreflang="ja" href="https://marbleanser.com/WebApp/index.html">
+<link rel="alternate" hreflang="ja" href="http://marbleanser.com/WebApp/index.html">
+<link rel="shortcut icon" href="images/favicon16.ico">
+<link rel="stylesheet" type="text/css" href="css/commons.css">
+<link rel="stylesheet" type="text/css" href="css/question.css">
+<link rel="stylesheet" type="text/css" href="css/responsiv_320.css">
+
+<title>Java開発日記</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>JavaWEB開発日記</h1>
+			<article>JavaApplicationWeb開発レポート<br>JavaMVC設計でApplicationを開発をおこないブログ形式でレポートや軌跡を綴っていきます。</article>
+		</header>
+	<div id="wrap">
+		<h2>JavaWebトレーニング室</h2>
+		<article><p>Web開発は行ったけどどのようにWEBに公開するのか？な ど様々な疑問を持ち始める公開するにはデプロイをおこないま す。他にも公開方法があるので自分にあった 公開方法を見つけよう。Javaの場合はアプリケーションサーバが必要になってくると思う。Eclipse環境であればTomcat、Jettyなどが有名である。まだ他にもアプリケーションサーバーはあるので興味 があれば探してみてください。
+WEBサーバと連携を行うのであれば<a href="http://www.apachelounge.com/download/" target="blank">Apache</a>や<a href="https://www.apachefriends.org/jp/download.html" target="blank">XAMPP</a>が人気 があるようです。</p>
+		<h2>デプロイ</h2>
+		<p>WARファイルの書き出しである。Pleades環境であればセッティングほぼ必要なしで行える。サーバエラー404、500出さないようにXML「web.xml」をしっかり記述する。localhost環境できちんと動作していればデプロ イ成功するはず。<a href="RepoArticle?id=2#RepoArticle">WARファイル指定したディレクトリに書き出されない場合リンク</a></p>
+		<h2>セキュアサーバ</h2>
+		<p>公開の準備を進めていくとサイトSSL化について気になってきた。<br>
+		 JavaでTLS/SSLを実装するためにかなり時間がかかった、このカテゴリはかなり初心者には難しかった。コ ンピュータセキュリティー勉強をしたことがあれば乗り越えられるあとはやる気次第か？
+		ハッシュ関数の仕組み、SHAなどについて調べながら淡々と時間を過ごした。JavaにはありがたいことにJavaKeyToolもある ことを知り証明書の作成もやってみた。コマンドプロンプトを使うのもなかなか良いなと思える ようになった。自己認証型証明書(オレオレ認証)もやってみた。</p>
+		<h2>ドメインの発行</h2>
+		<p>ドメイン発行業者は多くあるので自分のやりたいことを視野に入れてドメイン発行業者を選択したやはり勉強の一環としてやるなら価格も気になるところだがドメインの利用目的という常識がある。ドメインの利 用目的は調べたほうが良い。もちろん自分で発行することも可能であるが、世界に一つしかないのドメイン は先に取得してもわるくはなかった。今回は<a href="https://muumuu-domain.com/" target="blank">ムー ムドメイ ン</a>でドメインを取得した。</p>
+		<h2>JavaMail</h2>
+		<p>テスト段階でメインクラスからの実行で一部サーバへの送信をできるとこまできました。<a href="http://www.oracle.com/technetwork/java/javamail/index.html" target="blank">JavaMailAPI</a>、JAFのパス を通すのに時間がとられました<br>
+		 Gmailアカウントでプログラムからのメール送信は成功しました。<br>
+		 他のメールアカウントでメール送信もやってみます。</p>
+		<h2>文字カウンター</h2>
+		<p>データベーステーブルを設計する際、文字数がわからず不便があったので文字数カウンターを作成しました。大文字・小文字・HTMLタグ・空白もカウントできるので何かと便利です。<br><a href="TextCounter"> 文字カウンタ</a></p>
+		<h2>Link</h2>
+		<p><a href="https://marbleanser.com/WebApp">Javaトレーニング室</a></p>
+		<p><a href="https://marbleanser.com/2chann/Index">2チャンネル</a></p>
+		<p><a href="https://marbleanser.com/RelStandard">テストストア</a></p></article>
+	</div>
+	<nav id="side">
+		<aside>
+			<ul>
+				<li ><a href="RepoArticle?id=1">IndexArticle</a></li>
+				<li><a href="RepoArticle?id=2">WAR表示されない</a></li>
+				<li><a href="RepoArticle?id=3">GAE Plugin Eclipse4.5</a></li>
+				<li><a href="RepoArticle?id=4">JavaJDK</a></li>
+				<li><a href="RepoArticle?id=5">Tomcat</a></li>
+				<li><a href="RepoArticle?id=6">OpenSSL</a></li>
+				<li><a href="RepoArticle?id=7">Apache2.2</a></li>
+				<li><a href="RepoArticle?id=8">Java Path</a></li>
+				<li><a href="RepoArticle?id=9">BIOS ERROR</a></li>
+				<li><a href="RepoArticle?id=10">JavaJDK10</a></li>
+				<li><a href="RepoArticle?id=11">smtp4dev</a></li>
+				<li><a href="RepoArticle?id=12">keytool</a></li>
+				<li><a href="RepoArticle?id=13">MariaDBポート</a></li>
+				<li><a href="./web/index.html">Web Lesson</a></li>
+				<li><a href="ipcheck.jsp">IP&nbsp;Check</a></li>
+				<li><a href="TextCounter">TextCounter</a></li>
+				<li><a href="Profile">プロフィール</a></li>
+				<li><a href="Question">Question</a></li>
+			</ul>
+		</aside>
+	</nav>
+		<footer id="copyright">Copyright &copy; 2021 MARBLEANSER.COM All Rights Reserved.</footer>
+	</div>
+</body>
+</html>
